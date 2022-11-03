@@ -1,0 +1,15 @@
+    end
+
+    def tester
+        EmployeesList.new(@employees.select {|e| e.role == TESTER})
+    end
+
+    def seo
+        EmployeesList.new(@employees.select {|e| e.role == SEO})
+    end
+
+    def designer
+        EmployeesList.new(@employees.select {|e| e.role == DESIGNER})
+    end
+
+    def delete (o

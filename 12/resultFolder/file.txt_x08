@@ -1,0 +1,14 @@
+
+        end
+        def middle_name=(new_name)
+            @middle_name = new_name
+        end
+    end
+end
+
+
+unit = Unit.new
+
+unit.createEmployee("Dima", "Dzundza", "Mykolayovich", SEO)
+unit.createEmployee("Olexey", "Bochkov", "Pivovarovich", BACKEND)
+unit.createEmployee("Ivan", "Baridarov", "Pisheh

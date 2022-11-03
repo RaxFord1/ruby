@@ -1,0 +1,10 @@
+_name, last_name, middle_name, role)
+        @employees << Employee.new(first_name, last_name, middle_name, role)
+    end
+
+    def backend
+        EmployeesList.new(@employees.select {|e| e.role == BACKEND})
+    end
+
+    def frontend
+        EmployeesList.new(@employees.select {|e| e.role == FRONTEND})

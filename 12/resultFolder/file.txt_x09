@@ -1,0 +1,6 @@
+od", BACKEND)
+unit.createEmployee("Amid", "Dzundza", "Mykolayovich", FRONTEND)
+unit.createEmployee("Viskor", "Aplaud", "Pazlovich", FRONTEND)
+unit.createEmployee("Tester", "Testerov", "Testerovich", TESTER)
+unit.createEmployee("QA", "Testerov", "Testerpvich", TESTER)
+unit.createEmployee("Elon", "Tusk", "Must

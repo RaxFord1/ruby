@@ -1,0 +1,9 @@
+bj)
+        # puts "asd: #{obj.object_id}"
+        # each{|e| puts e.object_id}
+        @employees.delete_if {|x| x.object_id == obj.object_id} 
+    end
+
+    class Employee
+        attr_accessor :first_name, :last_name, :middle_name, :role
+        def initialize(first_name, last_name, middle_name, role)

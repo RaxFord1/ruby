@@ -1,0 +1,10 @@
+desc "Time description"
+task default: :time
+desc "Time description"
+task :time do
+  puts Time.now
+end
+desc "Hello description"
+task :hello do
+  puts "Hello"
+end

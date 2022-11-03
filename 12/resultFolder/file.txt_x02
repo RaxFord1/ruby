@@ -1,0 +1,20 @@
+loyees.sort{|a, b| a.first_name <=> b.first_name}.each{|a| puts a}
+    end
+
+    def each
+        @employees.each{|a| yield a}
+    end
+
+    def [](x)
+        @employees[x]
+    end
+
+end
+
+class Unit < EmployeesList
+
+    def <<(x)
+        return @employees << x
+    end
+
+    def createEmployee(first

@@ -1,0 +1,29 @@
+BACKEND = :backend
+
+FRONTEND = :frontend
+
+SEO = :seo
+
+DESIGNER = :designer
+
+TESTER = :tester
+
+
+
+class EmployeesList
+
+    attr_accessor :employees
+
+    def initialize (*args)
+
+        @employees = args&.flatten
+
+    end
+
+
+
+    def print
+
+        @employees.sort_by{|a| a.first_name}.each{|a| puts a}
+
+        # @emp
